@@ -1,0 +1,17 @@
+{% comment %}
+  Displays "On Sale" badge if product or any variant is discounted.
+  A variant is considered on sale if compare_at_price > price.
+{% endcomment %}
+{% assign on_sale = false %}
+{% for variant in product.variants %}
+  {% if variant.compare_at_price > variant.price %}
+    {% assign on_sale = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if on_sale %}
+  <span class="product-badge product-badge--sale">On Sale</span>
+{% else %}
+  <span class="product-badge">Regular Price</span>
+{% endif %}

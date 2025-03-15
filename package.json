@@ -1,0 +1,22 @@
+{
+  "name": "alumier-technical-test",
+  "version": "1.0.0",
+  "scripts": {
+    "get-orders": "ts-node src/get-orders.ts",
+    "product-update-webhook": "ts-node src/api/product-update.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "nodemailer": "^6.9.13",
+    "shopify-api-node": "^3.12.7",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/express": "^4.17.21",
+    "@types/body-parser": "^1.19.5",
+    "@types/nodemailer": "^6.4.15"
+  }
+}
