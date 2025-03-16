@@ -1,5 +1,7 @@
 # **Alumier Shopify Technical Test Interview**
 
+## **YouTube video:** [https://youtu.be/f5-i8sHoTiY](https://youtu.be/f5-i8sHoTiY)
+
 ## **Overview**
 
 This repository contains solutions for the Shopify Technical Test Interview @ Alumier:
